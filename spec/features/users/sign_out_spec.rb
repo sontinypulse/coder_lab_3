@@ -21,7 +21,7 @@ feature 'Sign out', :devise do
     click_link 'Sign out'
     fail "replace with your test here"
     # Add your test for this
-    # HINT: identify the sign out message and test that.
     # HINT: test this step on the browser so you know what message to test.
+    # HINT: identify the sign out message and test that.
   end
 end
