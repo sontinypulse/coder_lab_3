@@ -25,6 +25,7 @@ gem 'slim-rails'
 group :development do
   # gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'guard-rspec', require: false
 end
 group :development, :test do
   gem 'factory_girl_rails'
@@ -38,4 +39,3 @@ group :test do
   gem 'selenium-webdriver'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
